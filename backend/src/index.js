@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+require("../prisma/seed");
 
 const app = express();
 app.use(cors());
