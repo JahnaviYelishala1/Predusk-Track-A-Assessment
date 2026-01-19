@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:4000"; // change after deployment
+const API_BASE = "https://predusk-track-a-backend.onrender.com"; 
+// change after deployment
 
 export async function getProfile() {
   const res = await fetch(`${API_BASE}/profile`);
