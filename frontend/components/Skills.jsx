@@ -12,7 +12,6 @@ export default function Skills() {
   return (
     <section>
       <h3 className="text-xl font-semibold mb-4">Skills</h3>
-
       <div className="flex flex-wrap gap-3">
         {skills.map((skill) => (
           <span

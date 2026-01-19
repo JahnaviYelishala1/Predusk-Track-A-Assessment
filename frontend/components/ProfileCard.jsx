@@ -21,22 +21,13 @@ export default function ProfileCard() {
       <p className="mt-4 text-gray-700">{profile.summary}</p>
 
       <div className="flex gap-6 mt-6">
-        <a
-          href={profile.github}
-          className="text-blue-600 hover:underline"
-        >
+        <a href={profile.github} className="text-blue-600 hover:underline">
           GitHub
         </a>
-        <a
-          href={profile.linkedin}
-          className="text-blue-600 hover:underline"
-        >
+        <a href={profile.linkedin} className="text-blue-600 hover:underline">
           LinkedIn
         </a>
-        <a
-          href={profile.portfolio}
-          className="text-blue-600 hover:underline"
-        >
+        <a href={profile.portfolio} className="text-blue-600 hover:underline">
           Portfolio
         </a>
       </div>
